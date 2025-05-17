@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app/css/master.css" />
+    <link rel="stylesheet" href="/app/css/normalize.css" />
+    <link rel="stylesheet" href="/app/css/all.min.css" />
+    <link rel="stylesheet" href="/app/css/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("header.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("header-placeholder").innerHTML = data;
+          });
+      });
+    </script>
+
+    <div class="landing">
+      <div class="container">
+        <div class="kode-cart">
+          <div class="left-side">
+            <p>
+              ajdjkasdfhkjÖ<br />
+              sdfsdf sd sdf sdf sdf sdf;<br />
+              lskflsnd lsflk sldf lsmdf l;<br />
+              while<br />
+              MFLSDMF SLDMF<br />
+              ....<br />
+            </p>
+            <button>See all</button>
+          </div>
+          <div class="right-side">
+            <p>created by: malek alkhder</p>
+            <p>code rate: 5 star</p>
+            <button>rate</button>
+          </div>
+        </div>
+        <div class="kode-cart">
+          <div class="left-side">
+            <p>
+              ajdjkasdfhkjÖ<br />
+              sdfsdf sd sdf sdf sdf sdf;<br />
+              lskflsnd lsflk sldf lsmdf l;<br />
+              while<br />
+              MFLSDMF SLDMF<br />
+              ....<br />
+            </p>
+            <button>See all</button>
+          </div>
+          <div class="right-side">
+            <p>created by: malek alkhder</p>
+            <p>code rate: 5 star</p>
+            <button>rate</button>
+          </div>
+        </div>
+        <div class="kode-cart">
+          <div class="left-side">
+            <p>
+              ajdjkasdfhkjÖ<br />
+              sdfsdf sd sdf sdf sdf sdf;<br />
+              lskflsnd lsflk sldf lsmdf l;<br />
+              while<br />
+              MFLSDMF SLDMF<br />
+              ....<br />
+            </p>
+            <button>See all</button>
+          </div>
+          <div class="right-side">
+            <p>created by: malek alkhder</p>
+            <p>code rate: 5 star</p>
+            <button>rate</button>
+          </div>
+        </div>
+        <div class="kode-cart">
+          <div class="left-side">
+            <p>
+              ajdjkasdfhkjÖ<br />
+              sdfsdf sd sdf sdf sdf sdf;<br />
+              lskflsnd lsflk sldf lsmdf l;<br />
+              while<br />
+              MFLSDMF SLDMF<br />
+              ....<br />
+            </p>
+            <button>See all</button>
+          </div>
+          <div class="right-side">
+            <p>created by: malek alkhder</p>
+            <p>code rate: 5 star</p>
+            <button>rate</button>
+          </div>
+        </div>
+        <button class="add-code"><a href="/app/templets/kodEkleme.html">+</a></button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/app/css/header.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app/css/master.css" />
+    <link rel="stylesheet" href="/app/css/normalize.css" />
+    <link rel="stylesheet" href="/app/css/all.min.css" />
+    <link rel="stylesheet" href="/app/css/kode-ekleme-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <script>
+      // تحميل ملف الهيدر
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("header.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("header-placeholder").innerHTML = data;
+          });
+      });
+    </script>
+    <div class="container">
+      <form action="">
+        <textarea
+          name="eklenen-code"
+          id="eklenen-code"
+          placeholder="kodu burada ekleyiniz"
+          rows="33"
+          cols="120"
+        ></textarea>
+        <div class="code-ekleme-btn">
+          <button>yükle</button>
+          <button><a href="/app/templets/index.html">iptal</a></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
