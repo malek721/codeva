@@ -27,7 +27,7 @@
     font-size: 15px;
 }
 
-.container .code-ekleme-btn button:last-of-type a{
+.container .code-ekleme-btn button:nth-of-type(2) a{
     color: #235B94;
 
 }
