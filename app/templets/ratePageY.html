@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>rate page</title>
   </head>
   <body>
     <div id="header-placeholder"></div>
@@ -32,16 +32,46 @@
     </script>
     <div class="container">
       <form action="">
-        <textarea
-          name="eklenen-code"
-          id="eklenen-code"
-          placeholder="kodu burada ekleyiniz"
-          rows="33"
-          cols="120"
-        ></textarea>
+        <textarea name="eklenen-code" id="eklenen-code" rows="33" cols="120">
+ajdjkasdfhkjÖ<br />
+sdfsdf sd sdf sdf sdf sdf;<br />
+skflsnd lsflk sldf lsmdf l;<br />
+while<br />
+    MFLSDMF SLDMF<br />
+    <br />
+ajdjkasdfhkjÖ<br />
+sdfsdf sd sdf sdf sdf sdf;<br />
+skflsnd lsflk sldf lsmdf l;<br />
+while<br />
+    MFLSDMF SLDMF<br />
+    <br />    
+    </textarea
+        >
         <div class="code-ekleme-btn">
-          <button>yükle</button>
-          <button><a href="/app/templets/index.html">iptal</a></button>
+          <div>
+            <button
+              class="rate-btn"
+              style="
+                background-color: #235b94;
+                color: white;
+                padding: 8px 35px;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+              "
+            >
+              rate
+            </button>
+            <input
+              type="number"
+              name="rate"
+              id="rate"
+              placeholder="enter rate"
+            />
+          </div>
+          <a href="/app/templets/index.html">
+            <button style="color: #235b94">dön</button>
+          </a>
         </div>
       </form>
     </div>

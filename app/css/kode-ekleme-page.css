@@ -31,3 +31,13 @@
     color: #235B94;
 
 }
+.code-ekleme-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-ekleme-btn input{
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+}
